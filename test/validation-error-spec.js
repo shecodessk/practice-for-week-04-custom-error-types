@@ -4,6 +4,7 @@ const expect = chai.expect;
 const spies = require('chai-spies');
 chai.use(spies);
 
+
 const ValidationError = require('../error-types/validation-error');
 
 describe("ValidationError", () => {
